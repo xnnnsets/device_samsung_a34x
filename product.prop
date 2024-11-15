@@ -31,7 +31,6 @@ restore.feature.use_samsung_smart_switch_flow=1
 ro.com.google.clientidbase=android-samsung-ss
 ro.com.google.clientidbase.tx=android-samsung-rvodxam
 ro.com.google.gmsversion=14_202311
-ro.dalvik.vm.enable_uffd_gc=true
 ro.frp.pst=/dev/block/persistent
 ro.opa.eligible_device=true
 ro.product.cpu.pagesize.max=4096
