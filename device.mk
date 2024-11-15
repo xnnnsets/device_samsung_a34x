@@ -79,7 +79,7 @@ PRODUCT_CHARACTERISTICS := phone
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    fstab.emmc \
+    fstab.mt6877 \
     factory_init.connectivity.common.rc \
     factory_init.connectivity.rc \
     factory_init.project.rc \
@@ -105,10 +105,7 @@ PRODUCT_PACKAGES += \
     multi_init.rc \
     init.recovery.mt6877.rc \
     init.recovery.samsung.rc 
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.emmc:$(TARGET_COPY_OUT_RAMDISK)/fstab.emmc
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6877:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6877 
+ 
 
 # SEC_RIL
 PRODUCT_COPY_FILES += \
