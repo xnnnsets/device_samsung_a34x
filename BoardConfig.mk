@@ -116,7 +116,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 #TARGET_COPY_OUT_ODM := odm
 
 BOARD_BUILD_VENDORIMAGE := true
-#BUILD_WITHOUT_VENDOR := true
+#BUILD_WITHOUT_VENDOR := false
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6877
@@ -178,7 +178,8 @@ BOARD_VNDK_VERSION := 31
 
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/samsung_framework_compatibility_matrix.xml
+#DEVICE_MATRIX_FILE += p
 
 # Inherit the proprietary files
 include vendor/samsung/a34x/BoardConfigVendor.mk
