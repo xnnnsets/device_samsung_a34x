@@ -115,7 +115,7 @@ BOARD_ODM_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
-TARGET_COPY_OUT_ODM := odm
+#TARGET_COPY_OUT_ODM := odm
 
 
 # Platform
@@ -198,7 +198,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest/lights-default-sec.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest/manifest_hwcomposer.xml
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest/output.txt
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest/power-default.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest/sec.android.hardware.nfc@1.2-service.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest/sec_c2_manifest_default0_1_2.xml
