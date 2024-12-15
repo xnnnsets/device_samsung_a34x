@@ -141,19 +141,6 @@
         <fqname>@1.0::IDevice/default</fqname>
     </hal>
     <hal format="aidl" override="true">
-        <name>android.hardware.security.keymint</name>
-        <interface>
-            <name>IKeyMintDevice</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IRemotelyProvisionedComponent</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>IKeyMintDevice/default</fqname>
-        <fqname>IRemotelyProvisionedComponent/default</fqname>
-    </hal>
-    <hal format="aidl" override="true">
         <name>android.hardware.security.secureclock</name>
         <interface>
             <name>ISecureClock</name>
