@@ -1,14 +1,11 @@
-`<compatibility-matrix version="1.0" type="device">
-    <hal format="hidl">
-        <name>android.hardware.radio</name>
-        <version>1.5</version>
-        <fqname>@1.5::IRadio/slot1</fqname>
-        <fqname>@1.5::IRadio/slot2</fqname>
-    </hal>
-    <hal format="hidl">
+`<compatibility-matrix version="8.0" type="device">
+    <hal format="hidl" optional="true">
         <name>android.hardware.memtrack</name>
         <version>1.0</version>
-        <fqname>@1.0::IMemtrack/default</fqname>
+        <interface>
+            <name>IMemtrack</name>
+            <instance>default</instance>
+        </interface>
     </hal>
 </compatibility-matrix>
 

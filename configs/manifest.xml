@@ -61,11 +61,6 @@
         <fqname>@1.0::IOmxStore/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.memtrack</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IMemtrack/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.renderscript</name>
         <transport arch="32+64">passthrough</transport>
         <fqname>@1.0::IDevice/default</fqname>
@@ -225,14 +220,6 @@
         <transport>hwbinder</transport>
         <fqname>@2.0::ISehGnss/default</fqname>
     </hal>
-    <hal format="aidl">
-        <name>vendor.samsung.hardware.keymint</name>
-        <fqname>ISehKeyMintExtension/default</fqname>
-    </hal>
-    <hal format="aidl">
-        <name>vendor.samsung.hardware.keymint</name>
-        <fqname>ISehKeyMintFactory/default</fqname>
-    </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.miscpower</name>
         <transport>hwbinder</transport>
@@ -247,10 +234,6 @@
         <name>vendor.samsung.hardware.security.skpm</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::ISehSkpm/default</fqname>
-    </hal>
-    <hal format="aidl">
-        <name>vendor.samsung.hardware.snap</name>
-        <fqname>ISehSnap/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.sysinput</name>
